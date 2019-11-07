@@ -1,0 +1,25 @@
+{
+  "name": "React Starter",
+  "organization": "Anvil Analytics + Insights",
+  "description": "A starter component built with React",
+  "logoUrl": "https://raw.githubusercontent.com/googledatastudio/experimental-visualizations/master/viz/react-starter/src/react-starter-icon.png",
+  "organizationUrl": "https://anvilinsights.com",
+  "supportUrl": "https://github.com/googledatastudio/experimental-visualizations/issues",
+  "privacyPolicyUrl": "https://developers.google.com/datastudio/visualization",
+  "termsOfServiceUrl": "https://developers.google.com/datastudio/visualization",
+  "packageUrl": "https://github.com/googledatastudio/experimental-visualizations/tree/master/viz",
+  "devMode": "DEVMODE_BOOL",
+  "components": [
+    {
+      "id": "react",
+      "name": "React Starter",
+      "description": "A starter component built with React",
+      "iconUrl": "https://raw.githubusercontent.com/googledatastudio/experimental-visualizations/master/viz/react-starter/src/react-starter-icon.png",
+      "resource": {
+        "js": "YOUR_GCS_BUCKET/index.js",
+        "config": "YOUR_GCS_BUCKET/index.json",
+        "css": "YOUR_GCS_BUCKET/index.css"
+      }
+    }
+  ]
+}

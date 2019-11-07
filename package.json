@@ -1,0 +1,40 @@
+{
+  "dsccViz": {
+    "gcsDevBucket": "gs://anvil-data-studio-react-starter-dev",
+    "gcsProdBucket": "gs://anvil-data-studio-react-starter",
+    "jsFile": "index.js",
+    "jsonFile": "index.json",
+    "cssFile": "index.css",
+    "print": "printMessage.js"
+  },
+  "scripts": {
+    "build:dev": "NODE_ENV=production node scripts/build.js dev",
+    "build:prod": "NODE_ENV=production node scripts/build.js prod",
+    "push:dev": "dscc-scripts viz push -d dev",
+    "push:prod": "dscc-scripts viz push -d prod",
+    "update_message": "dscc-scripts viz update_message -f object",
+    "start": "dscc-scripts viz start",
+    "deploy:dev": "yarn build:dev && yarn push:dev",
+    "deploy:prod": "yarn build:prod && yarn push:prod"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.0",
+    "@babel/preset-env": "^7.5.0",
+    "@babel/preset-react": "^7.0.0",
+    "@google/dscc": "^0.3.8",
+    "@google/dscc-scripts": "^1.0.7",
+    "babel-loader": "^8.0.6"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.14",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  }
+}
