@@ -12,7 +12,7 @@
       "id": "react",
       "name": "React Starter",
       "description": "A starter component built with React",
-      "iconUrl": "https://raw.githubusercontent.com/googledatastudio/experimental-visualizations/master/viz/react-starter/src/react-starter-icon.png",
+      "iconUrl": "https://raw.githubusercontent.com/anvilinsights/data-studio-react-starter/master/src/react-starter-icon.png",
       "resource": {
         "js": "YOUR_GCS_BUCKET/index.js",
         "config": "YOUR_GCS_BUCKET/index.json",
