@@ -4,10 +4,8 @@
   "description": "A starter component built with React",
   "logoUrl": "https://raw.githubusercontent.com/googledatastudio/experimental-visualizations/master/viz/react-starter/src/react-starter-icon.png",
   "organizationUrl": "https://anvilinsights.com",
-  "supportUrl": "https://github.com/googledatastudio/experimental-visualizations/issues",
-  "privacyPolicyUrl": "https://developers.google.com/datastudio/visualization",
-  "termsOfServiceUrl": "https://developers.google.com/datastudio/visualization",
-  "packageUrl": "https://github.com/googledatastudio/experimental-visualizations/tree/master/viz",
+  "supportUrl": "https://github.com/anvilinsights/data-studio-react-starter/issues",
+  "packageUrl": "https://github.com/anvilinsights/data-studio-react-starter/tree/master/",
   "devMode": "DEVMODE_BOOL",
   "components": [
     {
